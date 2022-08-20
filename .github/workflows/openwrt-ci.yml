@@ -210,7 +210,7 @@ jobs:
           EOF
 
           # 语言包：
-          cat >> .config <<EOFy
+          cat >> .config <<EOF
           CONFIG_PACKAGE_luci-i18n-advanced-reboot-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-cifs-mount-zh-cn=y
